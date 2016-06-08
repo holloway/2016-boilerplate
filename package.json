@@ -5,15 +5,6 @@
     "build": "./node_modules/.bin/webpack && cp ./src/index.html ./dist/",
     "devweb": "cp ./src/index.html ./dist/ && ./node_modules/.bin/webpack-dev-server --content-base ./dist/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/holloway/2016-boilerplate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/holloway/2016-boilerplate/issues"
-  },
   "dependencies": {
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
